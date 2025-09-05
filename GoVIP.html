@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="GoVIP.css">
+
+
+    <!--Fonts-->
+
+    <!--Exo 2-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<!--Fraunces-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+    <img class="alert" src="images/alert-sign.png" alt="alert sign">
+    </header>
+
+    <main>
+        <h1>Sorry. Early access is for members only</h1>
+
+        <!--Javascript/PHP early access countdown timer-->
+        <div id="countdown-container" class="timer-container">
+            
+            
+            <div class="child-container">
+                <div id="hours">
+                    <div class="countdown-number">
+                        <h2>00</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="child-container">
+                <div id="minutes">
+                    <div class="countdown-number">
+                        <h2>00</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="child-container">
+                <div id="seconds">
+                    <div class="countdown-number">
+                        <h2>00</h2>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+
+
+        <!--Javascript hidden/visible toggle for when countdown finishes-->
+        <section>
+             <h3 class="early-access-h3">Countdown until early access ends</h3>
+             <h3 class="finished-h3">Early access has finished. Please refresh the page</h3>
+        </section>
+
+
+
+        <div class="button-container">
+        <button class="member-button">Become a member today</button>
+        </div>
+    </main>
+
+
+    <footer>
+        <h3>Page created with <img class="footer-logo" src="images/GoVIP-logo.webp" alt="GoVIP logo"> plugin 
+        </h3>
+    </footer>
+
+
+    <script src="GoVIP.js"></script>
+</body>
+</html>

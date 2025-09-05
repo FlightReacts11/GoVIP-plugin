@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: hsla(22, 31%, 76%, 1);
+
+background: linear-gradient(90deg, hsla(22, 31%, 76%, 1) 0%, hsla(60, 10%, 92%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(22, 31%, 76%, 1) 0%, hsla(60, 10%, 92%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(22, 31%, 76%, 1) 0%, hsla(60, 10%, 92%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#D5BDAF", endColorstr="#EDEDE9", GradientType=1 );
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+   :root {
+        --brown: #d5bdaf;
+        --light-brown: #e3d5ca;
+        --beige: #f5ebe0;
+        --dark-beige: #d6ccc2;
+        --off-white: #edede9;
+    }
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.alert {
+    height: 170px;
+    width: auto;
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 7vh;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+h2, h3 {
+    font-family: "Fraunces";
+    font-weight: 600; 
+}
+
+h2 {
+    font-size: 40px;
+}
+
+/*Javascript/PHP early access countdown container*/
+
+#countdown-container {
+    display: flex;
+    gap: 10vw;
+    justify-content: center;
+    background-color: hsla(0, 0%, 0%, 0.8);
+    color: var(--light-brown);
+    margin: 0px 120px;
+    border-radius: 10px;
+}
+
+
+
+/*Early access text / countdown finished text*/
+.early-access-h3 {
+    text-align: center;
+}
+
+.finished-h3 {
+    text-align: center;
+    display: none;
+}
+
+
+/*Member page button*/
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.member-button {
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+    color: var(--brown);
+    background-color: hsla(0, 0%, 0%, 0.7);
+    margin-top: 5vh;
+}
+
+.member-button:hover {
+    font-size: 18px;
+    transition: 0.2s ease-in-out;
+
+}
+
+
+/*footer*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    margin-top: 34vh;
+}
+
+.footer-logo {
+    height: 14px;
+    width: auto;
+    margin: 0;
+    position: relative;
+    top: 3px;
+}
