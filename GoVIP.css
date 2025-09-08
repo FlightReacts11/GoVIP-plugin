@@ -45,6 +45,7 @@ h1 {
 h2, h3 {
     font-family: "Fraunces";
     font-weight: 600; 
+    text-align: center;
 }
 
 h2 {
@@ -59,7 +60,7 @@ h2 {
     justify-content: center;
     background-color: hsla(0, 0%, 0%, 0.8);
     color: var(--light-brown);
-    margin: 0px 120px;
+    margin: 0px 170px;
     border-radius: 10px;
 }
 
@@ -72,6 +73,9 @@ h2 {
 
 .finished-h3 {
     text-align: center;
+}
+
+#countdown-finished {
     display: none;
 }
 
@@ -116,4 +120,16 @@ footer {
     margin: 0;
     position: relative;
     top: 3px;
+}
+
+@media only screen and (max-width: 920px) {
+    #countdown-container {
+        margin: 0 20px;
+    }
+}
+
+@media only screen and (max-width: 412px) {
+     #countdown-container {
+         gap: 6vw;
+     }
 }
